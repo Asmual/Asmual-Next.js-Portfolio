@@ -40,7 +40,7 @@ export default function NotFound() {
         </h1>
 
         {/* Divider line */}
-        <div className="w-16 h-[2px] bg-[#c9a84c] my-6" />
+        <div className="w-16 h-0.5 bg-[#c9a84c] my-6" />
 
         {/* Title */}
         <h2
