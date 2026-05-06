@@ -43,7 +43,7 @@ export default function LoginPage() {
 
     if (data?.user) {
       toast.success(`Welcome back, ${data.user.name || ""}!`, { id: toastId });
-      router.push("/dashboard");
+      router.push("/");
     } else {
       toast.error("Something went wrong. Please try again.", { id: toastId });
       setLoading(false);
@@ -54,7 +54,7 @@ export default function LoginPage() {
     setGoogleLoading(true);
     await authClient.signIn.social({
       provider: "google",
-      callbackURL: "/dashboard",
+      callbackURL: "/",
     });
   };
 

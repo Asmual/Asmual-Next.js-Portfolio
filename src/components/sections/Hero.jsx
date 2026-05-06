@@ -112,7 +112,7 @@ export default function Hero() {
               {/* Dark overlay for color matching */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#0e0e0e]/60 via-transparent to-transparent z-10" />
               <Image
-                src="/images/Asmual-Hero-Pucture.PNG"
+                src="/images/Asmual Formal Look.PNG"
                 alt="Asmual"
                 fill
                 className="object-cover object-top"

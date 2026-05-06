@@ -58,7 +58,7 @@ const Footer = () => {
                 (Icon, index) => (
                   <a
                     key={index}
-                    href="#"
+                    href=""
                     className="w-10 h-10 border border-[#c9a646]/40 rounded-full flex items-center justify-center hover:bg-[#c9a646] hover:text-black transition duration-300"
                   >
                     <Icon />
