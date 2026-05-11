@@ -44,28 +44,30 @@ export default function ProfilePage() {
 
   if (loading) {
     return (
-      <div className="text-white text-center py-20">
+      <div className="min-h-screen bg-[#0e0e0e] text-white flex items-center justify-center">
         Loading profile...
       </div>
     );
   }
 
   return (
-    <div className="max-w-2xl mx-auto my-10">
-      {editing ? (
-        <ProfileEdit
-          session={session}
-          profile={profile}
-          onCancel={() => setEditing(false)}
-          onSave={handleSave}
-        />
-      ) : (
-        <ProfileView
-          session={session}
-          profile={profile}
-          onEdit={() => setEditing(true)}
-        />
-      )}
+    <div className="min-h-screen bg-[#0e0e0e] px-4 py-10">
+      <div className="max-w-4xl mx-auto">
+        {editing ? (
+          <ProfileEdit
+            session={session}
+            profile={profile}
+            onCancel={() => setEditing(false)}
+            onSave={handleSave}
+          />
+        ) : (
+          <ProfileView
+            session={session}
+            profile={profile}
+            onEdit={() => setEditing(true)}
+          />
+        )}
+      </div>
     </div>
   );
 }

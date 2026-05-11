@@ -92,7 +92,7 @@ export default function LoginPage() {
                   value={form.email}
                   onChange={handleChange}
                   required
-                  placeholder="you@example.com"
+                  placeholder="Enter Your Email"
                   className="w-full py-3 pl-10 pr-4 rounded bg-[#1f1f1f] border border-[#c9a84c]/20 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-[#c9a84c]/60 transition-all duration-200"
                 />
               </div>
@@ -116,7 +116,7 @@ export default function LoginPage() {
                   value={form.password}
                   onChange={handleChange}
                   required
-                  placeholder="••••••••"
+                  placeholder="Enter Your Password"
                   className="w-full py-3 pl-10 pr-10 rounded bg-[#1f1f1f] border border-[#c9a84c]/20 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-[#c9a84c]/60 transition-all duration-200"
                 />
                 <button

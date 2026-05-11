@@ -100,7 +100,7 @@ export default function SignupPage() {
                   value={form.name}
                   onChange={handleChange}
                   required
-                  placeholder="Asmual"
+                  placeholder="Enter Your Full Name"
                   className="w-full py-3 pl-10 pr-4 rounded bg-[#1f1f1f] border border-[#c9a84c]/20 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-[#c9a84c]/60 transition-all duration-200"
                 />
               </div>
@@ -119,7 +119,7 @@ export default function SignupPage() {
                   value={form.email}
                   onChange={handleChange}
                   required
-                  placeholder="you@example.com"
+                  placeholder="Enter Your Email"
                   className="w-full py-3 pl-10 pr-4 rounded bg-[#1f1f1f] border border-[#c9a84c]/20 text-white text-sm placeholder-gray-600 focus:outline-none focus:border-[#c9a84c]/60 transition-all duration-200"
                 />
               </div>
